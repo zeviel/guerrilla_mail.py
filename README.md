@@ -1,10 +1,10 @@
-# guerrillamail.py
+# guerrilla_mail.py
 Web-API for [guerrillamail.com](https://www.guerrillamail.com) disposable temporary email address website
 
 ## Example
 ```python3
-import guerrillamail
-guerrilla_mail = guerrillamail.GuerrillaMail()
+import guerrilla_mail
+guerrilla_mail = guerrilla_mail.GuerrillaMail()
 email_address = guerrilla_mail.get_email_address()["email_addr"]
-print(f"-- Email address is::: {email_address}")
+print(email_address)
 ```
